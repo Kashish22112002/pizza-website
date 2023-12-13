@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="https://cdn.js.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="header">
+    <section class="flex">
+        <a href="'#home" class="logo">Pizza.</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#faq">faq</a>
+
+            
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="order-btn" class="fas fa-box"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"><span(4)></span></div>
+
+        </div>
+    </section>
+ </header>   
+
+ <div class="user-account">
+    <div id="close-account"><span>close</span></span></div>
+    <div class="user">
+        <p><span>you are not logged in now!</span></p>
+    </div>
+    <div class="display-orders">
+        <p>pizza-1<span>($3/- x 2)</span></p>
+        <p>pizza-03<span>($2/- x 1)</span></p>
+        <p>pizza-06<span>($4/- x 4)</span></p>
+        <p>pizza-07<span>($2/- x 1)</span></p>
+
+    </div>
+
+    <div class="flex">
+        <form action="" method="post">
+            <h3>login now</h3>
+            <input type="email" name="email" required class="box" placeholder="enter your name"
+            maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="enter your password"
+            maxlength="20">
+            <input type="submit" value="login now" name="login" class="btn">
+
+        </form>
+        <form action="" method="post">
+            <h3>login now</h3>
+            <input type="text" name="name" required class="box" placeholder="enter your name"
+            maxlength="20">
+            <input type="email" name="email" required class="box" placeholder="enter your name"
+            maxlength="50">
+
+            <input type="password" name="pass" required class="box" placeholder="enter your password"
+            maxlength="20">
+            <input type="password" name="pass" required class="box" placeholder="enter your password"
+            maxlength="20">
+
+            <input type="submit" value="login now" name="login" class="btn">
+
+    </div>
+ </div>
+<script src="js/pizza.js"></script>
+</body>
+</html>
